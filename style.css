@@ -545,3 +545,11 @@ footer {
         font-size: 24px;
     }
 }
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
